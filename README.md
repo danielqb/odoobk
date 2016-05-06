@@ -8,5 +8,4 @@ cp odoobk.py /usr/bin/
 chmod +x /usr/bin/odoobk.py
 
 #and program cron task
-m h  dom mon dow   command
 0 23 * * 1 python /usr/bin/odoobk.py >> /var/log/odoo/odoo-bkup.log
