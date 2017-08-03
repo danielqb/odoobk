@@ -9,7 +9,7 @@ def md5(fname):
              hash_md5.update(chunk)
      return hash_md5.hexdigest()
 
-location = "/Casius/bk/akasha/odoo_"
+location = "/mount_point/odoo_"
 
 try:
         query_args = { 'master_pwd':'pass','name':'database','backup_format':'zip' }
